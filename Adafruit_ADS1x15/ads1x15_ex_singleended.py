@@ -4,7 +4,7 @@ import time, signal, sys
 from Adafruit_ADS1x15 import ADS1x15
 
 def signal_handler(signal, frame):
-        print 'You pressed Ctrl+C!'
+        print('You pressed Ctrl+C!')
         sys.exit(0)
 signal.signal(signal.SIGINT, signal_handler)
 #print 'Press Ctrl+C to exit'
@@ -32,7 +32,7 @@ sps = 250  # 250 samples per second
 
 # Initialise the ADC using the default mode (use default I2C address)
 # Set this to ADS1015 or ADS1115 depending on the ADC you are using!
-adc = ADS1x15(ic=ADS1115)
+adc = ADS1x15(ic=ADS1015)
 
 # Read channel 0 in single-ended mode using the settings above
 volts = adc.readADCSingleEnded(0, gain, sps) / 1000
@@ -40,4 +40,4 @@ volts = adc.readADCSingleEnded(0, gain, sps) / 1000
 # To read channel 3 in single-ended mode, +/- 1.024V, 860 sps use:
 # volts = adc.readADCSingleEnded(3, 1024, 860)
 
-print "%.6f" % (volts)
+print("%.6f" % (volts))
