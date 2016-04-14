@@ -32,7 +32,7 @@ GitHub repositories and easy pip install names:
 | Adafruit_MCP230xx | https://github.com/adafruit/Adafruit_Python_GPIO | TBD | See [updated MCP230xx code](https://github.com/adafruit/Adafruit_Python_GPIO/blob/master/Adafruit_GPIO/MCP230xx.py). |
 | Adafruit_MCP3002 | TBD | TBD | - |
 | Adafruit_MCP3008 | https://github.com/adafruit/Adafruit_Python_MCP3008 | adafruit-mcp3008 | [See guide](https://learn.adafruit.com/raspberry-pi-analog-to-digital-converters). |
-| Adafruit_MCP4725 | https://github.com/adafruit/Adafruit_Python_MCP4725 | TBD | [See old guide](https://learn.adafruit.com/mcp4725-12-bit-dac-with-raspberry-pi/overview) |
+| Adafruit_MCP4725 | https://github.com/adafruit/Adafruit_Python_MCP4725 | adafruit-mcp4725 | [See old guide](https://learn.adafruit.com/mcp4725-12-bit-dac-with-raspberry-pi/overview) (TBD update to use new lib) |
 | Adafruit_PWM_Servo_Driver | TBD | TBD | - |
 | Adafruit_TCS34725 | TBD | TBD | - |
 | Adafruit_VCNL4000 | TBD | TBD | - |
