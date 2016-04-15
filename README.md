@@ -20,11 +20,11 @@ GitHub repositories and easy pip install names:
 |------------------|----------------------|--------------------------------|-------|
 | Adafruit_ADS1x15 | https://github.com/adafruit/Adafruit_Python_ADS1X15 | adafruit-ads1x15 | [See guide](https://learn.adafruit.com/raspberry-pi-analog-to-digital-converters). |
 | Adafruit_ADXL345 | TBD | TBD | - |
-| Adafruit_BMP085 | https://github.com/adafruit/Adafruit_Python_BMP | TBD | [See guide](https://learn.adafruit.com/using-the-bmp085-with-raspberry-pi/using-the-adafruit-bmp085-python-library). |
-| Adafruit_CharLCD | https://github.com/adafruit/Adafruit_Python_CharLCD | TBD | [See new character LCD guide](https://learn.adafruit.com/character-lcd-with-raspberry-pi-or-beaglebone-black/overview). |
-| Adafruit_CharLCDPlate | https://github.com/adafruit/Adafruit_Python_CharLCD | TBD | [See new character LCD guide](https://learn.adafruit.com/character-lcd-with-raspberry-pi-or-beaglebone-black/overview). |
-| Adafruit_DHT_Driver | https://github.com/adafruit/Adafruit_Python_DHT | - | See the [C code for reading the DHT sensor](https://github.com/adafruit/Adafruit_Python_DHT/tree/master/source/Raspberry_Pi_2) in the updated Python driver. |
-| Adafruit_DHT_Driver_Python | https://github.com/adafruit/Adafruit_Python_DHT | TBD | [See updated DHT sensor guide](https://learn.adafruit.com/dht-humidity-sensing-on-raspberry-pi-with-gdocs-logging/overview) |
+| Adafruit_BMP085 | https://github.com/adafruit/Adafruit_Python_BMP | adafruit-bmp | [See guide](https://learn.adafruit.com/using-the-bmp085-with-raspberry-pi/using-the-adafruit-bmp085-python-library). |
+| Adafruit_CharLCD | https://github.com/adafruit/Adafruit_Python_CharLCD | adafruit-charlcd | [See new character LCD guide](https://learn.adafruit.com/character-lcd-with-raspberry-pi-or-beaglebone-black/overview). |
+| Adafruit_CharLCDPlate | https://github.com/adafruit/Adafruit_Python_CharLCD | adafruit-charlcd | [See new character LCD guide](https://learn.adafruit.com/character-lcd-with-raspberry-pi-or-beaglebone-black/overview). |
+| Adafruit_DHT_Driver | https://github.com/adafruit/Adafruit_Python_DHT | None, must be manually installed to properly compile C extension. | See the [C code for reading the DHT sensor](https://github.com/adafruit/Adafruit_Python_DHT/tree/master/source/Raspberry_Pi_2) in the updated Python driver. |
+| Adafruit_DHT_Driver_Python | https://github.com/adafruit/Adafruit_Python_DHT | None, must be manually installed to properly compile C extension. | [See updated DHT sensor guide](https://learn.adafruit.com/dht-humidity-sensing-on-raspberry-pi-with-gdocs-logging/overview) |
 | Adafruit_I2C | https://github.com/adafruit/Adafruit_Python_GPIO | TBD | See [updated I2C code](https://github.com/adafruit/Adafruit_Python_GPIO/blob/master/Adafruit_GPIO/I2C.py) in the Python GPIO library.  Import with `import Adafruit_GPIO.I2C as I2C` and create an instance of `I2C.Device` instead of the old `Adafruit_I2C` class. |
 | Adafruit_LEDBackpack | https://github.com/adafruit/Adafruit_Python_LED_Backpack | TBD | [See new LED backpacks guide.](https://learn.adafruit.com/led-backpack-displays-on-raspberry-pi-and-beaglebone-black/overview) |
 | Adafruit_LEDpixels | TBD | TBD | - |
